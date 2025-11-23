@@ -1,0 +1,60 @@
+.gradient-bg {
+  background: linear-gradient(300deg,#ffffe6,#ffff80,#ffad33);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    box-shadow: black;
+}
+#about-me .heading{
+    -webkit-text-stroke: 1px black;
+    font-weight:900;
+    color: #ffff80 !important
+}
+#about-me{
+    background-color: #fff5e63e;
+    font-weight: bold;
+}
+.lead{
+    font-weight: 400;
+}
+
+.edu{
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+.Education{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    -webkit-text-stroke: 1px black;
+    font-weight:900;
+    color: #ffff80 !important
+}
+.text{
+    color: black;
+}
+.icon {
+  width: 50px;   /* increase width */
+  height: 50px;  /* increase height */
+}
+.cont{
+    background-color: #ffff80;
+}
